@@ -29,7 +29,22 @@ println("Daily Special:");
  println("-",line [beef]);
 println("-",line [pork]);
  println("-",line [fish]);
+println("\t");
+ 
+ int oj = 0;
+int aj = 1;
+ int milk = 2;
+int coke = 3;
+ int water =4;
 
+String drinks[] = loadStrings("data/beverages.txt");
+
+println("Beverages");
+  println("-", drinks[oj]);
+println("-", drinks[aj]);
+  println("-", drinks[milk]);
+println("-", drinks[coke]);
+  println("-", drinks[water]);
 }
 
 void draw() {
