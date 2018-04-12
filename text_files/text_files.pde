@@ -13,9 +13,9 @@ int superPower = 2;
 
 String lines[] = loadStrings("data/list.txt");
 
-println("Name:", lines[name]);
-println("Job title:", lines[job]);
-println("Beverages:", lines[superPower]);
+println("Good evening", lines[name]);
+println("Our daily specials are", lines[job]);
+println("we currently have three types of drinks on the menu", lines[superPower]);
 println("\t");
 
 
@@ -25,10 +25,9 @@ int fish = 2;
 
  String line[] = loadStrings("data/daily-special.txt");
 
-println("Daily Special:");
- println("-",line [beef]);
-println("-",line [pork]);
- println("-",line [fish]);
+ println("Our daily specials are",line [beef]);
+println("and",line [pork]);
+ println("and",line [fish]);
 println("\t");
  
  int oj = 0;
@@ -39,8 +38,7 @@ int coke = 3;
 
 String drinks[] = loadStrings("data/beverages.txt");
 
-println("Beverages");
-  println("-", drinks[oj]);
+  println("we currently have three types of drinks on the menu", drinks[oj]);
 println("-", drinks[aj]);
   println("-", drinks[milk]);
 println("-", drinks[coke]);
