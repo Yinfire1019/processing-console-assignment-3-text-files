@@ -26,8 +26,8 @@ int fish = 2;
  String line[] = loadStrings("data/daily-special.txt");
 
  print("Our daily specials are",line [beef]);
-print("and",line [pork]);
- println("and",line [fish]);
+print(" and",line [pork]);
+ println(" and",line [fish]);
 println("\t");
  
  int oj = 0;
