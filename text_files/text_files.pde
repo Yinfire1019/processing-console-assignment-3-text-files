@@ -25,8 +25,8 @@ int fish = 2;
 
  String line[] = loadStrings("data/daily-special.txt");
 
- println("Our daily specials are",line [beef]);
-println("and",line [pork]);
+ print("Our daily specials are",line [beef]);
+print("and",line [pork]);
  println("and",line [fish]);
 println("\t");
  
@@ -38,7 +38,7 @@ int coke = 3;
 
 String drinks[] = loadStrings("data/beverages.txt");
 
-  print("we currently have five types of drinks on the menu", drinks[oj]);
+  print("We currently have five types of drinks on the menu", drinks[oj]);
 print(",", drinks[aj]);
   print(",", drinks[milk]);
 print(",", drinks[coke]);
