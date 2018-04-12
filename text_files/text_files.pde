@@ -38,11 +38,11 @@ int coke = 3;
 
 String drinks[] = loadStrings("data/beverages.txt");
 
-  println("we currently have three types of drinks on the menu", drinks[oj]);
-println("-", drinks[aj]);
-  println("-", drinks[milk]);
-println("-", drinks[coke]);
-  println("-", drinks[water]);
+  print("we currently have five types of drinks on the menu", drinks[oj]);
+print(",", drinks[aj]);
+  print(",", drinks[milk]);
+print(",", drinks[coke]);
+  println("and", drinks[water]);
 }
 
 void draw() {
