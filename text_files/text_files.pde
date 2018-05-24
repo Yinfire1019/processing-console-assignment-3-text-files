@@ -24,7 +24,7 @@ void setup() {
    String lines[] = loadStrings("data/list.txt");
       String line[] = loadStrings("data/daily-special.txt");
           String drinks[] = loadStrings("data/beverages.txt");
-
+          //load the text from text file
 
   println("Good evening", lines[name]);
   println("Our daily specials are", lines[job]);
