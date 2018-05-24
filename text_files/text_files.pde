@@ -43,6 +43,7 @@ void setup() {
   print(",", drinks[milk]);
   print(",", drinks[coke]);
   println("and", drinks[water]);
+ //print the beverage
 }
 
 void draw() {
